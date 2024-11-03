@@ -92,7 +92,7 @@ repositories:
       - react
       - tailwindcss
   - name: next-upgrade
-    description: 'P6 GHA: Upgrades a Next.js S3 Static App' 
+    description: 'P6 GHA: Upgrades a Next.js S3 Static App'
     homepageUrl: 'https://continuouslearning.io'
     topics:
       - p6
