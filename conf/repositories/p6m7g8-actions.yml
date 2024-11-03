@@ -136,3 +136,11 @@ repositories:
       - aws
       - cdktf
       - terraform
+  - name: p6df-build
+    description: 'P6 GHA: Builds a p6df- plugin'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
