@@ -1,35 +1,42 @@
 {
   "compilerOptions": {
-    "alwaysStrict": true,
-    "declaration": true,
-    "experimentalDecorators": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
+    "baseUrl": ".",
+    "incremental": true,
+    "target": "ES2020",
     "lib": [
-      "es2018"
+      "es2020"
     ],
-    "module": "CommonJS",
-    "noEmitOnError": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "allowJs": false,
     "strict": true,
+    "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "stripInternal": true,
-    "target": "ES2018",
-    "incremental": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
     "skipLibCheck": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "test/**/*.ts",
   ],
   "exclude": [
-    "node_modules",
-    "cdktf.out"
-  ]
+    "cdk.out",
+    "node_modules"
+  ],
+  "outDir": "lib",
+  "rootDir": "src"
 }

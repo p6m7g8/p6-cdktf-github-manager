@@ -1,23 +1,31 @@
 {
-  "name": "p6-cdktf-github-p6m7g8-actions",
-  "version": "1.0.0",
-  "main": "main.js",
-  "types": "src/main.ts",
-  "license": "MPL-2.0",
+  "name": "p6-cdktf-github-manager",
+  "description": "P6: CDKTF GitHub Manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p6m7g8/p6-cdktf-github-manager.git"
+  },
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "types": "src/index.ts",
   "private": true,
   "scripts": {
-    "get": "cdktf get",
-    "build": "tsc",
-    "synth": "cdktf synth",
-    "compile": "tsc --pretty",
-    "watch": "tsc -w",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "upgrade": "npm i cdktf@latest cdktf-cli@latest",
-    "upgrade:next": "npm i cdktf@next cdktf-cli@next"
+    "build": "pnpm run lint && pnpm run test && pnpm cdktf synth",
+    "diff": "pnpm run build && pnpm cdktf diff",
+    "deploy": "pnpm run build && pnpm cdktf deploy",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix",
+    "test": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.js --coverage --passWithNoTests --updateSnapshot",
+    "test:watch": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.js --watch --coverage"
+  },
+  "author": {
+    "name": "Philip M. Gollucci",
+    "email": "pgollucci@p6m7g8.com",
+    "url": "https://www.linkedin.com/in/pgollucci",
+    "organization": true
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=22.11.0"
   },
   "dependencies": {
     "@cdktf/provider-github": "^14.3.1",
@@ -39,5 +47,12 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   },
+  "keywords": [
+    "aws",
+    "cdktf",
+    "github",
+    "p6"
+  ],
+  "license": "Apache-2.0",
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }

@@ -1,6 +1,6 @@
 {
   "language": "typescript",
-  "app": "npx ts-node src/main.ts",
+  "app": "npx ts-node -P tsconfig.json --prefer-ts-exts src/index.ts",
   "projectId": "b5ff9e8e-b76c-4b95-a6bb-427ea87e59f4",
   "sendCrashReports": "false",
   "terraformProviders": [],
