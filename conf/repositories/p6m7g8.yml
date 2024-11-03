@@ -1,0 +1,307 @@
+repositories:
+  - name: .github
+    description: 'P6M7G8: Community'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - profile
+      - readme
+      - organization
+  - name: p6-cdktf-github-manager
+    description: 'P6M7G8: Github Manager via CDKTF'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - cdktf
+      - github
+      - p6
+      - p6m7g8
+      - typescript
+  - name: awesome-projen
+    description: 'P6M7G8: Awesome Projen'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - awesome
+      - awesome-list
+      - aws
+      - cdk
+      - iac
+      - jsii
+      - p6
+      - p6m7g8
+      - projen
+      - typescript
+  - name: p6-cdk-gha-role
+    description: 'P6M7G8: AWS CDK Construct that makes IAM Roles for Github Actions to Assume via OIDC'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - compliance
+      - construct
+      - github
+      - github-actions
+      - iam
+      - landing-zone
+      - oidc
+      - p6
+      - p6m7g8
+      - security
+      - sts
+      - typescript
+  - name: p6-cdk-github-oidc-provider
+    description: 'P6M7G8: AWS CDK Construct that makes an OIDC Provider for Github Actions'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - compliance
+      - construct
+      - github
+      - github-actions
+      - iam
+      - landing-zone
+      - oidc
+      - p6
+      - p6m7g8
+      - security
+      - typescript
+  - name: p6-cdk-namer
+    description: 'P6M7G8: AWS CDK Construct that sets the IAM Account Alias via a Lambda'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - construct
+      - iam
+      - landing-zone
+      - p6
+      - p6m7g8
+      - typescript
+  - name: p6-cdk-s3-protector
+    description: 'P6M7G8: AWS CDK Construct that protects S3 Buckets in REAL-TIME'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - construct
+      - lambda
+      - landing-zone
+      - p6
+      - p6m7g8
+      - s3
+      - typescript
+  - name: p6-cdk-vpc-igw-protector
+    description: 'P6M7G8: AWS CDK Construct that protects VPC IGWs in REAL-TIME'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - construct
+      - lambda
+      - landing-zone
+      - p6
+      - p6m7g8
+      - vpc
+      - igw
+      - typescript
+  - name: p6-cdk-website-plus
+    description: 'P6M7G8: AWS CDK Construct that makes a Static Website R53->CF->S3 with http->https redirect and CNAMEs'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - cloudfront
+      - construct
+      - dns
+      - p6
+      - p6m7g8
+      - route53
+      - s3
+      - typescript
+      - website
+  - name: p6-cirrus
+    description: 'P6M7G8: p6df opinionated AWS CLIs'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - bash
+      - cli
+      - dotfiles
+      - p6
+      - p6m7g8
+      - sh
+      - shell
+      - zsh
+  - name: p6-domain-records
+    description: 'P6M7G8: AWS CDK Application that makes Route53 Records'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - dns
+      - p6
+      - p6m7g8
+      - route53
+      - typescript
+  - name: p6-domains
+    description: 'P6M7G8: AWS CDK Application that makes Route53 Hosted Zones'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - dns
+      - p6
+      - p6m7g8
+      - route53
+      - typescript
+  - name: p6-roles
+    description: 'P6M7G8: AWS CDK Application that makes IAM Roles'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - iam
+      - p6
+      - p6m7g8
+      - sts
+      - typescript
+  - name: p6-sites
+    description: 'P6M7G8: AWS CDK Application that makes Sites using p6-cdk-website-plus'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - p6
+      - p6m7g8
+      - typescript
+      - website
+  - name: p6m7g8.com
+    description: 'P6M7G8: Professional Business Website'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - nextjs
+      - p6
+      - p6m7g8
+      - react
+      - tailwindcss
+      - typescript
+      - website
+  - name: p6-zsh-sam-plugin
+    description: 'P6M7G8: ohmyzsh plugin for AWS SAM'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cli
+      - ohmyzsh
+      - p6
+      - p6m7g8
+      - plugin
+      - sam
+      - sh
+      - shell
+      - zsh
+  - name: p6-zsh-projen-plugin
+    description: 'P6M7G8: ohmyzsh plugin for Projen'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cli
+      - ohmyzsh
+      - p6
+      - p6m7g8
+      - plugin
+      - projen
+      - sh
+      - shell
+      - zsh
+  - name: p6-zsh-pnpm-plugin
+    description: 'P6M7G8: ohmyzsh plugin for PNPM'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cli
+      - ohmyzsh
+      - p6
+      - p6m7g8
+      - plugin
+      - pnpm
+      - sh
+      - shell
+      - zsh
+  - name: p6-zsh-cdktf-plugin
+    description: 'P6M7G8: ohmyzsh plugin for CDKTF'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdktf
+      - cli
+      - ohmyzsh
+      - p6
+      - p6m7g8
+      - plugin
+      - sh
+      - shell
+      - zsh
+  - name: p6-template-cdk-construct-eslint-yarn-ts-flatfile
+    description: 'P6M7G8: Template for CDK Constructs with Eslint(Flatfile), Yarn, and Typescript'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - construct
+      - eslint
+      - p6
+      - p6m7g8
+      - template
+      - typescript
+      - yarn
+  - name: p6-template-cdk-eslint-pnpm-ts-flatfile
+    description: 'P6M7G8: Template for CDK Applications with Eslint(Flatfile), PNPM, and Typescript'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - eslint
+      - p6
+      - p6m7g8
+      - template
+      - typescript
+      - pnpm
+  - name: p6-template-next-tailwind-react-eslint-pnpm-ts-flatfile
+    description: 'P6M7G8: Template for NextJS with TailwindCSS, React, Eslint(Flatfile), PNPM, and Typescript'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - eslint
+      - nextjs
+      - p6
+      - p6m7g8
+      - react
+      - tailwindcss
+      - template
+      - typescript
+      - pnpm
+  - name: p6-template-pipenv
+    description: 'P6M7G8: Template for Python with Pipenv'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - python
+      - pipenv
+      - template
+  - name: p6-template-sam-eslint-pnpm-ts-flatfile
+    description: 'P6M7G8: Template for SAM Applications with Eslint(Flatfile), PNPM, and Typescript'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - eslint
+      - sam
+      - p6
+      - p6m7g8
+      - pnpm
+      - template
+      - typescript
