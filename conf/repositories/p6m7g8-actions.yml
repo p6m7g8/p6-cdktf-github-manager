@@ -1,0 +1,105 @@
+repositories:
+  - name: .github
+    description: 'P6 GHA: Community'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - profile
+      - readme
+      - organization
+  - name: cdk-build
+    description: 'P6 GHA: Builds a CDK App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: cdk-deploy
+    description: 'P6 GHA: Deploys a CDK App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: cdk-upgrade
+    description: 'P6 GHA: Upgrades a CDK App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: cdk-construct-build
+    description: 'P6 GHA: Builds a CDK Construct'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: cdk-construct-release
+    description: 'P6 GHA: Releases & Publishes to NPMJS, PyPi, Nuget, Golang, Maven'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: cdk-construct-upgrade
+    description: 'P6 GHA: Upgrades a CDK Construct'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: next-build
+    description: 'P6 GHA: Builds a Next.js S3 Static App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk
+  - name: next-deploy
+    description: 'P6 GHA: Builds & Deploys a Next.js S3 Static App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - nextjs
+      - react
+      - tailwindcss
+  - name: next-upgrade
+    description: 'P6 GHA: Upgrades a Next.js S3 Static App' 
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - nextjs
+      - react
+      - tailwindcss

@@ -1,0 +1,38 @@
+repositories:
+  - name: pgollucci
+    description: 'Philip M. Gollucci Profile'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - github
+      - p6
+      - profile
+      - readme
+  - name: gollucci.com
+    description: 'My Personal Website'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - github
+      - homepage
+      - nextjs
+      - p6
+      - react
+      - tailwindcss
+      - typescript
+      - website
+  - name: home
+    description: 'My Home Dir'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - cli
+      - dotfiles
+      - p6
+      - p6df
+      - p6m7g8
+      - plugin-framework
+      - plugins
+      - productivity
+      - shell
+      - terminal
+      - theme
+      - themes
+      - zsh

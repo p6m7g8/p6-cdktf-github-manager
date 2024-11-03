@@ -1,0 +1,56 @@
+{
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "never"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "xml",
+    "html"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.format.enable": false,
+  "jest.runMode": "on-demand",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".cache": true
+  },
+  "files.associations": {
+    "*.test.tsx": "typescriptreact",
+    "*.test.ts": "typescript"
+  },
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.referencesCodeLens.enabled": false,
+  "javascript.referencesCodeLens.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cSpell.words": [
+    "cdktf",
+    "continuouslearning",
+    "luckydoganimalrescue",
+    "NPMJS",
+    "ruleset",
+    "Signoff",
+    "Triagers"
+  ]
+}

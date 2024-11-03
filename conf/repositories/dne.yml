@@ -1,0 +1,11 @@
+repositories:
+  - name: DNE
+    description: P6 DNE
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - profile
+      - readme
+      - organization

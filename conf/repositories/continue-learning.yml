@@ -1,0 +1,9 @@
+repositories:
+  - name: .github
+    description: 'P6 Continuous Learning Community'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - github
+      - p6
+      - profile
+      - readme

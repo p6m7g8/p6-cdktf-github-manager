@@ -1,0 +1,16 @@
+.gen/
+.pnpm-store/
+.terraform/
+assets/
+!assets/diagram.dot
+!assets/diagram.png
+coverage/
+dist/
+lib/
+node_modules/
+*.d.ts
+*.js
+*terraform.*.tfstate*
+cdktf.log
+cdktf.out
+tsconfig.tsbuildinfo

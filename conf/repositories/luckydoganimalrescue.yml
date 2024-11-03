@@ -1,0 +1,62 @@
+repositories:
+  - name: .github
+    description: 'P6 Lucky Dog Animal Rescue: Community'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - github
+      - luckydoganimalrescue
+      - organization
+      - p6
+      - pets
+      - profile
+      - readme
+      - rescue
+  - name: p6-ldar-brand-image-infra
+    description: 'P6 Lucky Dog Animal Rescue: Brand Image Infrastructure'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - cdk
+      - github
+      - luckydoganimalrescue
+      - p6
+      - p6m7g8
+      - pets
+      - rescue
+      - typescript
+  - name: p6-ldar-brand-image-website
+    description: 'P6 Lucky Dog Animal Rescue: Brand Image Website'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - github
+      - luckydoganimalrescue
+      - nextjs
+      - p6
+      - p6m7g8
+      - pets
+      - react
+      - rescue
+      - tailwindcss
+      - typescript
+  - name: p6df-ldar
+    description: 'P6 Lucky Dog Animal Rescue: p6df integration'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - github
+      - p6
+      - p6df
+      - p6m7g8
+      - zsh
+  - name: p6-ldar-portal-scraper
+    description: 'P6 Lucky Dog Animal Rescue: Portal Scraper'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - github
+      - luckydoganimalrescue
+      - p6
+      - p6m7g8
+      - pets
+      - python
+      - rescue

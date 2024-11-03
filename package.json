@@ -1,0 +1,68 @@
+{
+  "name": "p6-cdktf-github-manager",
+  "description": "P6: CDKTF GitHub Manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p6m7g8/p6-cdktf-github-manager.git"
+  },
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "types": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "build": "pnpm run lint && pnpm run test && pnpm cdktf synth",
+    "diff:core": "pnpm run build",
+    "diff:p6m7g8-actions": "pnpm cdktf diff p6-cdktf-github-manager-p6m7g8-actions",
+    "diff:pgollucci": "pnpm cdktf diff p6-cdktf-github-manager-pgollucci",
+    "diff:continue-learning": "pnpm cdktf diff p6-cdktf-github-manager-continue-learning",
+    "diff:luckydoganimalrescue": "pnpm cdktf diff p6-cdktf-github-manager-luckydoganimalrescue",
+    "diff": "pnpm run diff:core && pnpm run diff:p6m7g8-actions && pnpm run diff:pgollucci && pnpm run diff:continue-learning && pnpm run diff:luckydoganimalrescue",
+    "deploy:core": "pnpm run build",
+    "deploy:p6m7g8-actions": "pnpm cdktf deploy p6-cdktf-github-manager-p6m7g8-actions",
+    "deploy:pgollucci": "pnpm cdktf deploy p6-cdktf-github-manager-pgollucci",
+    "deploy:continue-learning": "pnpm cdktf deploy p6-cdktf-github-manager-continue-learning",
+    "deploy:luckydoganimalrescue": "pnpm cdktf deploy p6-cdktf-github-manager-luckydoganimalrescue",
+    "deploy": "pnpm run deploy:core && pnpm run deploy:p6m7g8-actions && pnpm run deploy:pgollucci && pnpm run deploy:continue-learning && pnpm run deploy:luckydoganimalrescue",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix",
+    "test": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.js --coverage --passWithNoTests --updateSnapshot",
+    "test:watch": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.js --watch --coverage"
+  },
+  "author": {
+    "name": "Philip M. Gollucci",
+    "email": "pgollucci@p6m7g8.com",
+    "url": "https://www.linkedin.com/in/pgollucci",
+    "organization": true
+  },
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "dependencies": {
+    "@cdktf/provider-github": "^14.3.1",
+    "cdktf": "^0.20.9",
+    "constructs": "^10.4.2",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@types/jest": "^29.5.14",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.8.6",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "eslint": "^9.14.0",
+    "eslint-plugin-import": "^2.31.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "aws",
+    "cdktf",
+    "github",
+    "p6"
+  ],
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
