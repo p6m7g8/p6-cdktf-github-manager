@@ -1,0 +1,210 @@
+repositories:
+  - name: .github
+    description: 'P6 Dotfiles: Community'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - github
+      - organization
+      - p6
+      - p6m7g8
+      - profile
+      - readme
+  - name: p6aws
+    description: 'P6 Dotfiles: POSIX.2 AWS utility functions'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - bash
+      - cli
+      - p6
+      - p6m7g8
+      - sh
+      - shell
+      - terminal
+      - zsh
+  - name: p6awscdk
+    description: 'P6 Dotfiles: POSIX.2 AWS CDK utility functions'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - aws
+    - bash
+    - cdk
+    - cli
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6common
+    description: 'P6 Dotfiles: POSIX.2 Common utility functions for shell scripting'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - common
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6git
+    description: 'P6 Dotfiles: POSIX.2 Git utility functions for streamlined command-line usage'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - git
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6github
+    description: 'P6 Dotfiles: POSIX.2 GitHub integration utility functions'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - git
+    - github
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6helm
+    description: 'P6 Dotfiles: POSIX.2 Helm CLI utility functions for Kubernetes management'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - helm
+    - kubernetes
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6jenkins
+    description: 'P6 Dotfiles: POSIX.2 Jenkins utility functions for CI/CD workflows'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - ci
+    - cli
+    - jenkins
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6kubernetes
+    description: 'P6 Dotfiles: POSIX.2 Kubernetes CLI utility functions for cluster management'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - kubernetes
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6macosx
+    description: 'P6 Dotfiles: POSIX.2 macOS-specific utility functions'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - macos
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6perl
+    description: 'P6 Dotfiles: POSIX.2 Perl utility functions for scripting'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - p6
+    - p6m7g8
+    - perl
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6pgsql
+    description: 'P6 Dotfiles: POSIX.2 PostgreSQL utility functions for database management'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - p6
+    - p6m7g8
+    - pgsql
+    - postgres
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6projen
+    description: 'P6 Dotfiles: POSIX.2 Projen utility functions for project generation'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - p6
+    - p6m7g8
+    - projen
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6python
+    description: 'P6 Dotfiles: POSIX.2 Python utility functions for scripting and automation'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - p6
+    - p6m7g8
+    - python
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6shell
+    description: 'P6 Dotfiles: POSIX.2 Core shell utilities for POSIX-compliant scripting'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - terminal
+    - zsh
+  - name: p6sqlite
+    description: 'P6 Dotfiles: POSIX.2 SQLite utility functions for database management'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - p6
+    - p6m7g8
+    - sh
+    - shell
+    - sqlite
+    - terminal
+    - zsh
