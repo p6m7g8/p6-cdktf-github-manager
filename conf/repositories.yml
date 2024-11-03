@@ -1,0 +1,21 @@
+repositories:
+  - name: .github
+    description: P6 GHA Actions - .github
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - profile
+      - readme
+      - organization
+  - name: cdk-build
+    description: 'P6 GHA: Builds a CDK App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdk

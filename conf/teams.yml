@@ -1,0 +1,7 @@
+teams:
+  - name: "P6-Owners"
+  - name: "P6-Admins"
+  - name: "P6-Maintainers"
+  - name: "P6-Writers"
+  - name: "P6-Triagers"
+  - name: "P6-Readers"
