@@ -103,3 +103,36 @@ repositories:
       - nextjs
       - react
       - tailwindcss
+  - name: cdktf-build
+    description: 'P6 GHA: Builds a CDKTF App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdktf
+      - terraform
+  - name: cdktf-deploy
+    description: 'P6 GHA: Deploys a CDKTF App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdktf
+      - terraform
+  - name: cdktf-upgrade
+    description: 'P6 GHA: Upgrades a CDKTF App'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - aws
+      - cdktf
+      - terraform
