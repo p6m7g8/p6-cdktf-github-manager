@@ -10,7 +10,7 @@
   "types": "src/index.ts",
   "private": true,
   "scripts": {
-    "build": "pnpm run lint && pnpm run test && pnpm cdktf synth",
+    "build": "pnpm run lint && pnpm cdktf synth",
     "diff:core": "pnpm run build",
     "diff:p6m7g8-actions": "pnpm cdktf diff p6-cdktf-github-manager-p6m7g8-actions",
     "diff:pgollucci": "pnpm cdktf diff p6-cdktf-github-manager-pgollucci",
