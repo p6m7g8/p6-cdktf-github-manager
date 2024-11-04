@@ -432,7 +432,6 @@ repositories:
     - shell
     - terminal
     - theme
-    - zsh
   - name: p6df-c
     description: 'P6 Dotfiles: C'
     homepageUrl: 'https://continuouslearning.io'
@@ -1603,22 +1602,6 @@ repositories:
     - zsh
   - name: p6df-workato
     description: 'P6 Dotfiles: WORKATO'
-    homepageUrl: 'https://continuouslearning.io'
-    topics:
-    - cli
-    - dotfiles
-    - p6
-    - p6df
-    - p6m7g8
-    - plugin
-    - productivity
-    - sh
-    - shell
-    - terminal
-    - theme
-    - zsh
-  - name: p6df-zsh
-    description: 'P6 Dotfiles: ZSH'
     homepageUrl: 'https://continuouslearning.io'
     topics:
     - cli
