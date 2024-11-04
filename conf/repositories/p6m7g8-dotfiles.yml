@@ -337,22 +337,6 @@ repositories:
     - terminal
     - theme
     - zsh
-  - name: p6df-arkestro
-    description: 'P6 Dotfiles: ARKESTRO'
-    homepageUrl: 'https://continuouslearning.io'
-    topics:
-    - cli
-    - dotfiles
-    - p6
-    - p6df
-    - p6m7g8
-    - plugin
-    - productivity
-    - sh
-    - shell
-    - terminal
-    - theme
-    - zsh
   - name: p6df-aws
     description: 'P6 Dotfiles: AWS'
     homepageUrl: 'https://continuouslearning.io'
@@ -498,22 +482,6 @@ repositories:
     - zsh
   - name: p6df-comet
     description: 'P6 Dotfiles: COMET'
-    homepageUrl: 'https://continuouslearning.io'
-    topics:
-    - cli
-    - dotfiles
-    - p6
-    - p6df
-    - p6m7g8
-    - plugin
-    - productivity
-    - sh
-    - shell
-    - terminal
-    - theme
-    - zsh
-  - name: p6df-core
-    description: 'P6 Dotfiles: CORE'
     homepageUrl: 'https://continuouslearning.io'
     topics:
     - cli
@@ -946,22 +914,6 @@ repositories:
     - zsh
   - name: p6df-launchdarkly
     description: 'P6 Dotfiles: LAUNCHDARKLY'
-    homepageUrl: 'https://continuouslearning.io'
-    topics:
-    - cli
-    - dotfiles
-    - p6
-    - p6df
-    - p6m7g8
-    - plugin
-    - productivity
-    - sh
-    - shell
-    - terminal
-    - theme
-    - zsh
-  - name: p6df-ldar
-    description: 'P6 Dotfiles: LDAR'
     homepageUrl: 'https://continuouslearning.io'
     topics:
     - cli
