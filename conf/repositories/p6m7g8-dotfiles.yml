@@ -208,3 +208,1428 @@ repositories:
     - sqlite
     - terminal
     - zsh
+  - name: p6df
+    description: 'P6 Dotfiles: Installer'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-core
+    description: 'P6 Dotfiles: Core Framework'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - bash
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin-framework
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-zsh
+    description: 'P6 Dotfiles: ZSH'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-1password
+    description: 'P6 Dotfiles: 1PASSWORD'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-r
+    description: 'P6 Dotfiles: R'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-akuity
+    description: 'P6 Dotfiles: AKUITY'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-alfred
+    description: 'P6 Dotfiles: ALFRED'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-argocd
+    description: 'P6 Dotfiles: ARGOCD'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-arkestro
+    description: 'P6 Dotfiles: ARKESTRO'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-aws
+    description: 'P6 Dotfiles: AWS'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-awscdk
+    description: 'P6 Dotfiles: AWSCDK'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-awssam
+    description: 'P6 Dotfiles: AWSSAM'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-azure
+    description: 'P6 Dotfiles: AZURE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-bash
+    description: 'P6 Dotfiles: BASH'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-c
+    description: 'P6 Dotfiles: C'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-cdk8s
+    description: 'P6 Dotfiles: CDK8S'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-cdktf
+    description: 'P6 Dotfiles: CDKTF'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-cloudflare
+    description: 'P6 Dotfiles: CLOUDFLARE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-comet
+    description: 'P6 Dotfiles: COMET'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-core
+    description: 'P6 Dotfiles: CORE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-crunchydb
+    description: 'P6 Dotfiles: CRUNCHYDB'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-cucumber
+    description: 'P6 Dotfiles: CUCUMBER'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-darwin
+    description: 'P6 Dotfiles: DARWIN'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-databricks
+    description: 'P6 Dotfiles: DATABRICKS'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-datadog
+    description: 'P6 Dotfiles: DATADOG'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-dbt
+    description: 'P6 Dotfiles: DBT'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-docker
+    description: 'P6 Dotfiles: DOCKER'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-eslint
+    description: 'P6 Dotfiles: ESLINT'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-gcp
+    description: 'P6 Dotfiles: GCP'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-git
+    description: 'P6 Dotfiles: GIT'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-github
+    description: 'P6 Dotfiles: GITHUB'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-go
+    description: 'P6 Dotfiles: GO'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-graphql
+    description: 'P6 Dotfiles: GRAPHQL'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-helm
+    description: 'P6 Dotfiles: HELM'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-heroku
+    description: 'P6 Dotfiles: HEROKU'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-homebrew
+    description: 'P6 Dotfiles: HOMEBREW'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-huggingface
+    description: 'P6 Dotfiles: HUGGINGFACE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-irc
+    description: 'P6 Dotfiles: IRC'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-java
+    description: 'P6 Dotfiles: JAVA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-jenkins
+    description: 'P6 Dotfiles: JENKINS'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-jira
+    description: 'P6 Dotfiles: JIRA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-js
+    description: 'P6 Dotfiles: JS'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-julia
+    description: 'P6 Dotfiles: JULIA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-jupyter
+    description: 'P6 Dotfiles: JUPYTER'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-kafka
+    description: 'P6 Dotfiles: KAFKA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-kubernetes
+    description: 'P6 Dotfiles: KUBERNETES'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-launchdarkly
+    description: 'P6 Dotfiles: LAUNCHDARKLY'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-ldar
+    description: 'P6 Dotfiles: LDAR'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-linkedin
+    description: 'P6 Dotfiles: LINKEDIN'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-lua
+    description: 'P6 Dotfiles: LUA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-macosx
+    description: 'P6 Dotfiles: MACOSX'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-mysql
+    description: 'P6 Dotfiles: MYSQL'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-newrelic
+    description: 'P6 Dotfiles: NEWRELIC'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-nmap
+    description: 'P6 Dotfiles: NMAP'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-oci
+    description: 'P6 Dotfiles: OCI'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-okta
+    description: 'P6 Dotfiles: OKTA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-openai
+    description: 'P6 Dotfiles: OPENAI'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-oracle
+    description: 'P6 Dotfiles: ORACLE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-pagerduty
+    description: 'P6 Dotfiles: PAGERDUTY'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-perl
+    description: 'P6 Dotfiles: PERL'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-pgsql
+    description: 'P6 Dotfiles: PGSQL'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-playwright
+    description: 'P6 Dotfiles: PLAYWRIGHT'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-projen
+    description: 'P6 Dotfiles: PROJEN'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-proxy
+    description: 'P6 Dotfiles: PROXY'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-python
+    description: 'P6 Dotfiles: PYTHON'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-rails
+    description: 'P6 Dotfiles: RAILS'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-redis
+    description: 'P6 Dotfiles: REDIS'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-rollbar
+    description: 'P6 Dotfiles: ROLLBAR'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-ruby
+    description: 'P6 Dotfiles: RUBY'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-rust
+    description: 'P6 Dotfiles: RUST'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-scala
+    description: 'P6 Dotfiles: SCALA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-secoda
+    description: 'P6 Dotfiles: SECODA'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-shell
+    description: 'P6 Dotfiles: SHELL'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-short
+    description: 'P6 Dotfiles: SHORT'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-slab
+    description: 'P6 Dotfiles: SLAB'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-slack
+    description: 'P6 Dotfiles: SLACK'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-snowflake
+    description: 'P6 Dotfiles: SNOWFLAKE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-solidity
+    description: 'P6 Dotfiles: SOLIDITY'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-sqlite
+    description: 'P6 Dotfiles: SQLITE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-sqlserver
+    description: 'P6 Dotfiles: SQLSERVER'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-sudo
+    description: 'P6 Dotfiles: SUDO'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-teleport
+    description: 'P6 Dotfiles: TELEPORT'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-terraform
+    description: 'P6 Dotfiles: TERRAFORM'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-tmux
+    description: 'P6 Dotfiles: TMUX'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-vim
+    description: 'P6 Dotfiles: VIM'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-vscode
+    description: 'P6 Dotfiles: VSCODE'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-wakatime
+    description: 'P6 Dotfiles: WAKATIME'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-workato
+    description: 'P6 Dotfiles: WORKATO'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
+  - name: p6df-zsh
+    description: 'P6 Dotfiles: ZSH'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+    - cli
+    - dotfiles
+    - p6
+    - p6df
+    - p6m7g8
+    - plugin
+    - productivity
+    - sh
+    - shell
+    - terminal
+    - theme
+    - zsh
