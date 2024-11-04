@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@cdktf/provider-aws':
+        specifier: ^19.40.0
+        version: 19.40.0(cdktf@0.20.9(constructs@10.4.2))(constructs@10.4.2)
       '@cdktf/provider-github':
         specifier: ^14.3.1
         version: 14.3.1(cdktf@0.20.9(constructs@10.4.2))(constructs@10.4.2)
@@ -276,6 +279,13 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@cdktf/provider-aws@19.40.0':
+    resolution: {integrity: sha512-wiex3xRV7SrYH+yMcOAkN84CVgw6I/UtQNgfIKdS4sgKT8fXO+vUderwQVPSvZadpElk3EmGAB4pQ3QUpsTetg==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      cdktf: ^0.20.0
+      constructs: ^10.3.0
 
   '@cdktf/provider-github@14.3.1':
     resolution: {integrity: sha512-lC7BT36MBTnAO228IlQAnUhUfIsk9rdGxQVe3xhtjJinoL0oZnuvTApbvjX3kQ5iJ7m4g1Cz/TbmhIvoXRs8/Q==}
@@ -2924,6 +2934,11 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@bcoe/v8-coverage@0.2.3': {}
+
+  '@cdktf/provider-aws@19.40.0(cdktf@0.20.9(constructs@10.4.2))(constructs@10.4.2)':
+    dependencies:
+      cdktf: 0.20.9(constructs@10.4.2)
+      constructs: 10.4.2
 
   '@cdktf/provider-github@14.3.1(cdktf@0.20.9(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:

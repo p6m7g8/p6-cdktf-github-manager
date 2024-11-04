@@ -1,133 +1,47 @@
-import type { RepositoryConfig } from '@cdktf/provider-github/lib/repository'
-import type { TeamConfig } from '@cdktf/provider-github/lib/team'
-import type { Construct } from 'constructs'
+import type { IOrgs } from './manager'
 import * as fs from 'node:fs'
 import * as process from 'node:process'
-import { provider } from '@cdktf/provider-github'
-import { BranchDefault } from '@cdktf/provider-github/lib/branch-default'
-import { Repository } from '@cdktf/provider-github/lib/repository'
-import { RepositoryRuleset } from '@cdktf/provider-github/lib/repository-ruleset'
-import { Team } from '@cdktf/provider-github/lib/team'
-import { App, TerraformStack } from 'cdktf'
+import { DynamodbTable } from '@cdktf/provider-aws/lib/dynamodb-table'
+import { S3Bucket } from '@cdktf/provider-aws/lib/s3-bucket'
+import { App, S3Backend } from 'cdktf'
 import * as yaml from 'js-yaml'
+import { MyStack } from './manager'
 
-interface IOrganizationConfig {
-  repositories: RepositoryConfig[]
-}
+const region = process.env.CDK_DEPLOY_REGION || process.env.CDK_DEFAULT_REGION || 'us-east-1'
 
-interface IOrgTeamConfig {
-  teams: TeamConfig[]
-}
+const app = new App()
 
-interface IOrgs {
-  orgs: string[]
-}
+const stateBucket = new S3Bucket(app, 'TerraformStateBucket', {
+  bucket: `p6-cdktf-terraform-state-${region}`,
+  acl: 'private',
+  versioning: {
+    enabled: true,
+  },
+})
 
-export interface IMyStackProps {
-  organization: string
-}
-
-export class MyStack extends TerraformStack {
-  private readonly organization: string
-
-  constructor(scope: Construct, id: string, props: IMyStackProps) {
-    super(scope, id)
-    this.organization = props.organization
-
-    this.init()
-    if (this.organization !== 'pgollucci') {
-      this.teams()
-    }
-    this.repositories()
-  }
-
-  private init(this: MyStack) {
-    new provider.GithubProvider(this, 'Github', {
-      token: process.env.GH_TOKEN,
-      owner: this.organization,
-    })
-  }
-
-  private teams() {
-    const fileContents = fs.readFileSync('conf/teams.yml', 'utf8')
-    const data = yaml.load(fileContents) as IOrgTeamConfig
-
-    data.teams.forEach((team: TeamConfig) => {
-      new Team(this, team.name, {
-        ...team,
-      })
-    })
-  }
-
-  private repositories() {
-    const fileContents = fs.readFileSync(`conf/repositories/${this.organization}.yml`, 'utf8')
-    const data = yaml.load(fileContents) as IOrganizationConfig
-    data.repositories.forEach((repo: RepositoryConfig) => {
-      new Repository(this, repo.name, {
-        allowAutoMerge: true,
-        allowMergeCommit: false,
-        allowRebaseMerge: false,
-        allowSquashMerge: true,
-        allowUpdateBranch: true,
-        archiveOnDestroy: true,
-        deleteBranchOnMerge: true,
-        hasDiscussions: true,
-        hasIssues: true,
-        hasProjects: true,
-        hasWiki: true,
-        licenseTemplate: 'apache-2.0',
-        squashMergeCommitTitle: 'PR_TITLE',
-        vulnerabilityAlerts: false,
-        ...repo,
-      })
-
-      const saneName = repo.name.replace(/\./g, '')
-      const branchName = `default_branch_${saneName}`
-      const branchDefault = new BranchDefault(this, branchName, {
-        branch: 'main',
-        repository: repo.name,
-      })
-      branchDefault.dependsOn = [`github_repository.${saneName}`]
-
-      const rulesetName = `ruleset_${saneName}`
-      const repositoryRuleset = new RepositoryRuleset(this, rulesetName, {
-        name: 'default',
-        enforcement: 'active',
-        repository: repo.name,
-        target: 'branch',
-        conditions: {
-          refName: {
-            exclude: [],
-            include: ['~DEFAULT_BRANCH'],
-          },
-        },
-        rules: {
-          requiredSignatures: true,
-          requiredLinearHistory: true,
-          nonFastForward: true,
-          pullRequest: {
-            requiredApprovingReviewCount: 1,
-          },
-          requiredStatusChecks: {
-            strictRequiredStatusChecksPolicy: true,
-            requiredCheck: [
-              {
-                context: 'build',
-              },
-            ],
-          },
-        },
-      })
-      repositoryRuleset.dependsOn = [`github_repository.${saneName}`]
-    })
-  }
-}
+new DynamodbTable(app, 'TerraformLocksTable', {
+  name: `p6-cdktf-terraform-locks-${region}`,
+  billingMode: 'PAY_PER_REQUEST',
+  hashKey: 'LockID',
+  attribute: [
+    {
+      name: 'LockID',
+      type: 'S',
+    },
+  ],
+})
 
 const fileContents = fs.readFileSync(`conf/orgs.yml`, 'utf8')
 const data = yaml.load(fileContents) as IOrgs
-
-const app = new App()
 data.orgs.forEach((org: string) => {
+  new S3Backend(app, {
+    bucket: stateBucket.bucket,
+    key: `${org}/terraform.tfstate`,
+    region,
+    dynamodbTable: 'terraform-locks',
+    encrypt: true,
+  })
+
   new MyStack(app, `p6-cdktf-github-manager-${org}`, {
     organization: org,
   })

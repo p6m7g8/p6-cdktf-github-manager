@@ -52,6 +52,7 @@
     "NPMJS",
     "ruleset",
     "Signoff",
+    "tfstate",
     "Triagers"
   ]
 }
