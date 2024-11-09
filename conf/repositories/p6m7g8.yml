@@ -305,3 +305,15 @@ repositories:
       - pnpm
       - template
       - typescript
+  - name: p6-sso-scim
+    description: 'P6M7G8: Bootstrap SCIM for AWS SSO via Google Workspace'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - google
+      - p6
+      - p6m7g8
+      - scim
+      - sso
+      - typescript
+
