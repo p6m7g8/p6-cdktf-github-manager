@@ -317,7 +317,7 @@ repositories:
       - sso
       - typescript
   - name: p6-lz
-    description: 'P6M7G8: Bootstrap AWS Landing Zone via Control Tower'
+    description: 'P6M7G8: Bootstrap AWS Landing Zone via CDK'
     homepageUrl: 'https://continuouslearning.io'
     topics:
       - aws
@@ -326,4 +326,11 @@ repositories:
       - landing-zone
       - control-tower
       - typescript
-
+  - name: p6-stratosphere
+    description: 'P6M7G8: AWS Opinionated Convince Functions tied to p6-lz'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - aws
+      - p6
+      - p6m7g8
+      - shell
