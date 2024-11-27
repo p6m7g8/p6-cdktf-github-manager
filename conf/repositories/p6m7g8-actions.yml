@@ -144,3 +144,12 @@ repositories:
       - p6m7g8
       - github
       - github-actions
+  - name: node-setup
+    description: 'P6 GHA: Sets up Node.js'
+    homepageUrl: 'https://continuouslearning.io'
+    topics:
+      - p6
+      - p6m7g8
+      - github
+      - github-actions
+      - node
